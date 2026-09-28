@@ -9,7 +9,7 @@
   /* Tông noir như các trang bên dưới, không đổi theo sáng/tối của máy. */
   :root{
     --bg:#050608; --panel:#0C0E11; --panel2:#161B20; --ink:#EDEBE6; --muted:#8B9098; --line:#1E242A;
-    --en:#3ED9C9; --zh:#F2B646; --fr:#B99CF6;
+    --fr:#B99CF6;
   }
   *{box-sizing:border-box}
   body{margin:0; background:var(--bg); color:var(--ink);
@@ -24,7 +24,7 @@
   a.card{display:block; padding:18px 18px 20px; background:var(--panel); color:inherit; text-decoration:none; transition:background .12s}
   a.card:hover{background:var(--panel2)}
   a.card:focus-visible{outline:2px solid var(--k); outline-offset:-2px}
-  .en{--k:var(--en)} .zh{--k:var(--zh)} .fr{--k:var(--fr)}
+  .fr{--k:var(--fr)}
   .card .n{display:block; margin-bottom:8px; color:var(--k); font:500 10.5px "IBM Plex Mono", monospace; letter-spacing:.12em; text-transform:uppercase}
   .card h3{margin:0 0 4px; font:600 21px/1.2 "Newsreader", Georgia, serif; color:var(--k)}
   .card .tag{margin:0 0 10px; color:var(--ink); font-size:13.5px}
@@ -44,20 +44,6 @@
       <h3>Ma trận nói tiếng Pháp</h3>
       <p class="tag">Nói từng khối, nối thành câu, kéo thành đoạn</p>
       <p>Các bài của bộ Speaking Matrix (Zero, 30 giây, 1–3 phút) dịch sang tiếng Pháp, ngắt sẵn thành khối kèm nghĩa tiếng Việt từng khối.</p>
-    </a>
-  </div>
-
-  <h2>Ngôn ngữ khác</h2>
-  <div class="grid">
-    <a class="card en" href="https://tmn281196.github.io/english_study/">
-      <span class="n">english_study</span>
-      <h3>Tiếng Anh</h3>
-      <p>Đồ thị câu, khối từ, luyện nói theo Speaking Matrix.</p>
-    </a>
-    <a class="card zh" href="https://tmn281196.github.io/xuexi_hanyu/">
-      <span class="n">xuexi_hanyu</span>
-      <h3>Tiếng Trung</h3>
-      <p>Đồ thị câu HSK1–6 và từ vựng, pinyin trên từng chữ.</p>
     </a>
   </div>
 
